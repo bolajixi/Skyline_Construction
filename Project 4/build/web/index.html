@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Project 4</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="mdl/getstarted.css">
+        <link rel="stylesheet" type="text/css" href="mdl/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script>
+            $(document).ready(function(){
+  // Add smooth scrolling to all links
+              $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+      // Prevent default anchor click behavior
+                  event.preventDefault();
+
+      // Store hash
+                  var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                  $('html, body').animate({
+                    scrollTop: $(hash).offset().top
+              }, 800, function(){
+
+        // Add hash (#) to URL when done scrolling (default click behavior)
+                window.location.hash = hash;
+              });
+    } // End if
+  });
+});
+</script>
+    </head>
+    
+
+<body>
+<div class="scroll-container">
+  <section id="top" class="section">
+    <header class="v-header container">
+      <div class="header-content">
+        <nav class="navbar">
+          <ul>
+            <li><a href="#top">Get Started</a></li>
+            <li><a href="#section-a">About</a></li>
+            <li><a href="#section-c">Why Us?</a></li>
+            <li><a href="#section-b">What We Do</a></li>
+            </ul>
+          </nav>
+        
+        </div>
+      <div class="fullscreen-video-wrap">
+        <video src="images/video1.mp4" autoplay loop></video>
+        </div>
+      <div class="header-overlay"></div>
+      <div class="header-content">
+        <h1>Project Reporting Simplified</h1>
+        <p>Our real-time dashboard make project reporting simple. Whether your project involves residential home building, heavy industrial construction, commercial construction or engineering construction, it only takes one click to make a detailed report. You can also share your report online with team members and stakeholders.</p>
+        <a href="index.jsp" class="btn">Get Started</a>
+        </div>
+      </header>
+  </section>
+  
+  <section id="section-a" class="section section-a">
+      <div class="container-c about_bg" style="margin-top: 305px;">
+                <div class="row">
+                    <div class="col-lg-7 col-md-6">
+                        <div class="about_content">
+                            <h2>Welcome to the Skyline</h2>
+                            <h3>Aliquam lacus purus, auctor malesuada</h3>
+                            <p>SKYLINE is a Nigerian-based company with many subsidiaries. Not all of the subsidiaries has SKYLINE in the name; however, we are involved in many parts of the construction and infrastructure industries.</p>
+                            <p>One of our upcoming projects will be the new campus for Cardiff University in Yola. SKYLINE is one of the biggest construction companies in the world, as such we work all over the world.</p>
+                            <a  class="btn know_btn">know more</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-lg-offset-1">
+                        <div class="about_banner">
+                            <img src="images/man.png" alt="" />
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    
+    <section id="section-c" class="section section-c" style="background-color: #f2f7fa;">
+		<div class="container-c text-center">
+		<div class="row">
+			<div class="col-md-8 col-md-offset-2">
+                        <div class="head_title">
+                            <h1 style="margin: 180px 0 0 0;">WHY CHOOSE US?</h1>
+                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit,</p>
+
+                        </div>
+                    </div>
+			<div class="row">
+                    <div class="col-md-3 col-sm-6">
+                        <div class="why_us_item">
+                            <span class="fa fa-leaf"></span>
+                            <h4>We deliver quality</h4>
+                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni </p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="why_us_item">
+                            <span class="fa"><img src="images/schedule-button.svg" width="10"/></span>
+                            <h4>Always on time</h4>
+                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="why_us_item">
+                            <span class="fa fa-group"></span>
+                            <h4>We are pasionate</h4>
+                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni</p>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6">
+                        <div class="why_us_item">
+                            <span class="fa"></span>
+                            <h4>Professional Services</h4>
+                            <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni</p>
+                        </div>
+                    </div>
+                </div>
+              </div>
+		</div>
+    </section>
+    
+    <section id="section-b" class="section section-b">
+          <div class="container-c">
+        <h2>
+          WHAT WE DO?
+        </h2>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="service_item">
+                <img src="images/S1.jpg" alt="Our Services" />
+              <h3>
+                SKYLINE Manifesto
+              </h3>
+              <p>
+                Because our projects are in the public interest, we at SKYLINE consider that we have a duty to reach out to our public and private sector partners and to engage in dialogue with them and are publishing a new Manifesto with commitments meeting that objective.
+              </p>
+              <a href="#section-b" class="btn know_btn" style="margin: 20px 0 100px;">know more</a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service_item">
+              <img src="images/S2.jpg" alt="Our Services" />
+              <h3>
+                SUSTAINABILITY
+              </h3>
+              <p>
+                Because our projects serve the public interest and because they often bring about radical changes in cities and regions, we pursue a sustainable development policy that is both exacting and pragmatic.
+              </p>
+              <a href="#section-b" class="btn know_btn">know more</a>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="service_item">
+                <img src="images/S3.jpg" alt="Our Services" />
+              <h3>
+                SKYLINE Foundations and Funds
+              </h3>
+              <p>
+                The Foundation SKYLINE pour la Cité supports initiatives to set up sponsorship organizations, in France and around the world, to bring our companies’ civic engagement ever closer to the Group’s host geographies.
+              </p>
+              <a href="#section-b" class="btn know_btn">know more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+</div>
+</body>
+</html>
