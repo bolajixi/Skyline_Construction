@@ -4,6 +4,6 @@ This system is aimed at helping project managers to record their construction ex
 # Database file
 Upload the MySql database file in "Database" folder to database.
 
-# Requiremants
+# Requirement
 - Java Enterprise Edition JDK
 - Glassfish Server V.1.1
